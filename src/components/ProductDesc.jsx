@@ -45,7 +45,6 @@ const ProductDesc = () => {
       try {
         const response = await axios.get(API_URL);
         
-        // Parseamos la respuesta JSON en el campo body
         const productsList = JSON.parse(response.data.body);
         setProducts(productsList);
 
