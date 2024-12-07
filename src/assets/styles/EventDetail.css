@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.event-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.event-container h1 {
+  font-size: 50px;
+  font-family: "League Gothic", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.event-container h3 {
+  font-size: 15px;
+  color: #666;
+  font-family: 'Lato', sans-serif;
+  font-weight:normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.event-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.event-container p {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color: #666;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.event-container h4 {
+  font-size: 20;
+  font-weight: bolder;
+  font-family: 'Lato', sans-serif;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.event-container h5{
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight:normal;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-blog-questions{
+  background-color: #EDEDED;
+  height: 184px;
+  padding-top: 40px
+  
+}
+
+.contact-blog-questions >  button{
+  border: none;
+  background-color: white;
+  width: 270px;
+  height: 35px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  opacity: 50%;
+  box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.75);
+}
+
+.blog-socials{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.blog-socials > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-socials > div:hover{
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.blog-socials > div > a > img{
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  transition: transform 0.3s ease;
+}
+
+.blog-socials > div:hover > a > img{
+  transform: scale(20deg);
+}

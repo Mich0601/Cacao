@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.article-detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.article-detail-container >img{
+    max-width: 1001px;
+    height: 503px;
+    
+}
+
+.article-detail-title{
+    margin: 0;
+    font-family: "League Gothic", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.article-detail-image{
+    display: flex;
+    justify-content: center;
+}
+
+.article-detail-description{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.article-detail-description-container{
+    margin-top: 20px;
+    max-width: 844px;
+}

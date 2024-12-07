@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.thankyou-container2 {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(71, 105, 85, 0.295); 
+  z-index: 9999; 
+}
+
+.thankyou-box2 {
+  background-color: #829664; 
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 450px;
+  width: 90%;
+  box-shadow: 0px 4px 10px rgba(56, 56, 56, 0.582); 
+}
+
+.thankyou-box2 h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #ffffffef;
+  font-family: "Inter", sans-serif;
+}
+
+.thankyou-box2 p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.thankyou-box2 button {
+  background-color: white;
+  color: #829664;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 300px;
+  height: 44px;
+}
+
+.thankyou-box2 button:hover {
+  background-color: #556b2f; 
+  color: white;
+}
+
+.sparkles-left2, .sparkles-right2 {
+  position: absolute;
+  width: 150px;
+  z-index: 10000;
+}
+
+.sparkles-left2 {
+  top: 26%; 
+  left: 35%;
+}
+
+.sparkles-right2 {
+  top: 57%;
+  right: 35%;
+}

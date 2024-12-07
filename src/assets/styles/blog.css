@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.main-blog{
+    background-color: #FFFFFF;
+}
+
+.hello-blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    background-color: white;
+    
+}
+
+.hello-blog-image > img{
+    height: 609px;
+    width: 581px;
+}
+
+.hello-blog-description{
+    height: 70%;
+    width: 691px;
+    background-color: transparent;
+    margin-bottom: 100px;
+}
+
+.hello-blog-description > h1{
+    font-family: "League Gothic", sans-serif;
+    font-size: 70px;
+    text-align: start;
+    margin: 0;
+}
+
+.hello-blog-description > h2{
+    font-family: "League Gothic", sans-serif;
+    font-size: 50px;
+    text-align: start;
+}
+
+.hello-blog-description >  h2 > span{
+    color: #F9C256;
+    font-family: "League Gothic", sans-serif;
+    font-size: 50px;
+    text-align: start;
+}
+
+
+.hello-blog-description > p{
+    margin-top: 35px;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hello-blog-description > a > button{
+    margin-top: 50px;
+    width: 230px;
+    height: 38px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    background-color: #F9C256;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.contact-blog-questions{
+    background-color: #EDEDED;
+    height: 184px;
+    padding-top: 40px
+    
+}
+
+.contact-blog-questions >  button{
+    border: none;
+    background-color: white;
+    width: 270px;
+    height: 35px;
+    
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    opacity: 50%;
+    box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.75);
+}
+
+.blog-socials{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .blog-socials > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    
+  }
+  
+  .blog-socials > div > img{
+    height: 30px;
+    width: 30px;
+  }
+
+
+  .blogs{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .blogs > span{
+    color: #F9C256;
+    font-family: "League Gothic", sans-serif;
+    font-size: 50px;
+    margin-right: 900px
+  }
+
+  .blog-presentation{
+    background-color: #FFFFFF;
+    height: 558px;
+    width: 999px;
+    border-radius: 10px;
+    box-shadow: -2px 8px 13px -6px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+  }
+
+  .blog-presentation >img{
+    max-width: 999px;
+    height: 420px;
+  }
+
+  .blog-category{
+    color: #F45A5A;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  .blog-title{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+  .blog-description{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+
+  .blog-contact-info{
+    background-color: #FFFFFF;
+    height: 334px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .blog-contact-contacts{
+    width: 683px;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-top: 35px;
+    padding-right: 25px;
+  }
+
+
+  .blog-contact-contacts > p{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 33px;
+
+  }
+
+  .blog-contact-contacts > span{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 10px
+  }
+
+  .fin-event {
+    font-family: "League Gothic", sans-serif;
+    transform: translate(-70%, 70px);
+    color: #F9C256;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-left: 144px;
+    font-weight:600;
+    text-align: right;
+    z-index: 2; 
+    
+  
+    
+  }
+
+  .btn-events-more{
+    border: none;
+    width: 248px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #F9C256;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    box-shadow: 0px 4px 7px -1px rgba(0,0,0,0.75);
+}
+
+.event-card-blogE2 {
+  width: 844px;
+  height: 253px;
+  font-weight:900;
+  padding: 10px;
+  color: #000000;
+  background-color: #D9D9D9; 
+  border-radius: 8px;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}

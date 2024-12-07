@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.content-questions{
+    height: 488px;
+    width: 100vw;
+    background-color: beige;
+    background-image: url('../images/fondoQuestions.jpg');
+    background-size: cover; 
+    background-position: center; 
+    text-align: center;
+    
+}
+
+.questions{
+    height: 281px;
+    width: 950px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+}
+
+.content-questions > h1{
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+
+.questions > div > a{
+    text-decoration: underline;
+    color: #517983;
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+}
+
+.first-content{
+    height: 100%;
+    background-color: transparent;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.contact-questions{
+    background-color: #517983;
+    height: 280px;
+    margin-top: 20px;
+    
+}
+
+.contact-questions >  button{
+    border: none;
+    background-color: white;
+    width: 270px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    cursor: pointer;
+}
+
+.socials1{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .socials1 > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+
+  .socials1 > div:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .socials1 > div > a > img{
+    height: 30px;
+    width: 30px;
+    margin-top: 3px;
+    transition: transform 0.3s ease; 
+  }
+
+  .socials1 > div:hover > a > img {
+    transform: scale(20deg); 
+  }

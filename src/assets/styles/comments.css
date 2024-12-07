@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.comments-container {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url('../images/fondo.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+  }
+
+  
+  .comments-container > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #B2C19A; 
+    width: 616px;
+    height: 25px;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .comment-form {
+    width: 1000px; 
+    height: 225; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .comment-form label {
+    font-size: 13px;
+    color: #556b2f;
+    margin-top: 25px; 
+    margin-bottom: 10px;
+    width: 160px;
+    height: 15px;
+  }
+  
+  .comment-form input{
+    width: 1001px;
+    height: 40px;
+    padding: 15px;
+    margin: 10px 0;
+    font-family: inherit;
+    border-radius: 10px; 
+    border: 0px solid #ccc;
+    font-size: 16px;
+    background-color: #DFDFDF; 
+    color: #333; 
+    box-sizing: border-box;
+  } 
+  .comment-form textarea {
+    width: 1001px;
+    height: 170px;
+    padding: 15px;
+    margin: 10px 0;
+    font-family: inherit;
+    border-radius: 10px; 
+    border: 0px solid #ccc;
+    font-size: 16px;
+    background-color: #DFDFDF; 
+    color: #333; 
+    box-sizing: border-box;
+  }
+  
+  .comment-form textarea {
+    height: 150px;
+    resize: none; 
+    position: relative;
+  }
+  
+  .textarea-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .comment-form button {
+  background-color: transparent; 
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 14px; 
+  bottom: 24px;
+  }
+  
+  .comment-form button img {
+    width: 20px;
+    height: 19px;
+  }
+  
+  .comment-form button:hover img {
+    opacity: 0.8; 
+  }
+  
+  
+  .carousel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1325px;
+    align-items: center;
+  }
+  
+  .comment-box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 30px; 
+  }
+  
+  .comment {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #B2C19A;
+    padding: 10px;
+    border-radius: 20px;
+    min-height: 247px;
+    height: 247px;
+    min-width: 307px;
+    max-height: 200px;
+    overflow-y: auto;
+    opacity: 50%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  
+  .arrow-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px; 
+  }
+  
+  .arrow-btn img {
+    width: 20px; 
+    height: 59.57px;
+  }
+  
+  .arrow-btn:hover img {
+    opacity: 0.8; 
+  }
+
+  .divider {
+    width: 20%;
+    max-width: 1200px;
+    height: 2px;
+    background-color: #517983;
+    margin: 20px 0;
+  }
+  
+.hello-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    
+}
+
+.hello-image > img{
+    height: 831px;
+    width: 831px;
+}
+
+.hello-description{
+    height: 70%;
+    width: 591px;
+    background-color: transparent;
+}
+
+.hello-description > h1{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: start;
+}
+
+.hello-description > p{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.hello-description > a > button{
+    margin-top: 50px;
+    width: 230px;
+    height: 38px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    background-color: #517983;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: white;
+}

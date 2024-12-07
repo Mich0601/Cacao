@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.contact-navv {
+  background-color: #fcfafa; 
+  padding: 10px 70px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  color: #131212; 
+  margin-bottom: 5px;
+}
+
+.navbarcontact {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%; 
+}
+
+.logo {
+  font-size: 25px;
+  color: #0e0d0d; 
+  margin-right: 80px; 
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+
+nav {
+  margin-left: 0; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 100px; 
+}
+
+nav ul li {
+  margin: 0; 
+}
+
+nav ul li a {
+  color: #131212; 
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease; 
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+nav ul li a:hover {
+  color: #517983; 
+}
+
+
+
+
+
+
+
+
+.contact-container-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('../images/avenaobscura.jpeg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  
+}
+
+
+.form-group textarea {
+  height: 290px; 
+  padding-top: 65px; 
+  padding-bottom: 50px; 
+  margin-bottom: 65px; 
+  resize: none;
+}
+
+              
+.contact-form {
+  background: white;
+  padding: 35px;
+  border-radius: 25px;
+  width: 750px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: "Inter", sans-serif;
+
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #517983;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  
+}
+
+
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.labels {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 17px;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.label-message{
+  margin-bottom: 160px;
+  color: #555;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+
+.form-group textarea,
+.form-group input{
+  width: 85%;
+  padding: 10px;
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+.form-group textarea{
+  height: 190px;
+  width: 85%;
+  padding: 10px;
+  background-color: #D9D9D9;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: none;
+
+}
+
+.contact-form button {
+  width: 30%;
+  padding: 10px;
+  background-color: #517983;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+}
+
+.contact-form button:hover {
+  background-color: #517983;
+}
+
+
+
+
+.modall {
+  display: block; 
+  position: fixed; 
+  z-index: 1000; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.5);
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-error,
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 612px;
+  height: 226px;
+  text-align: center;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.modal-content h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #517983;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.modal-content-error h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+  color: #DF7F69;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.modal-content-error p,
+.modal-content p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  
+}
+
+
+.modal-content button {
+  padding: 10px 20px;
+  background-color: #517983;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 170px;
+  height: 38px;
+}
+
+.modal-content button:hover {
+  background-color: #517983;
+}  
+
+.modal-content-error button {
+  padding: 10px 20px;
+  background-color: #517983;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 150px;
+  
+}
+
+.modal-content-error button:hover {
+  background-color: #517983;
+} 
+
+
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  transition: transform 0.5s ease;
+}
+
+nav ul li:hover {
+  transform: scale(1.5); 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+
+nav ul li:hover a {
+  color: #007bff; 
+}

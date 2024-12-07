@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.articles-container{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.article{
+    background-color: #FFFFFF;
+    max-width: 225px;
+    height: 343px;
+    box-shadow: -1px 2px 7px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.article > img{
+    height: 179px;
+    width: 225px;
+}
+
+
+.article-category{
+    color: #F45A5A;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+.article-title{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+.article-description{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+.btn-article-more{
+    border: none;
+    width: 248px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #F9C256;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    box-shadow: 0px 4px 7px -1px rgba(0,0,0,0.75);
+}
